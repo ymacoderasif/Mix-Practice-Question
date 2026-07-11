@@ -234,16 +234,38 @@
 
 
 
-// Q17. Multiplication Table 
-// Ek program banao jo kisi number ka multiplication table print 
-// kare. 
 
-function multiplicationtable(num){
-    for(let i = 1; i <= 10; i++){
-        console.log(`${num} * ${i} = ${num * i}`);
+
+
+
+
+
+// // Q17. Multiplication Table 
+// // Ek program banao jo kisi number ka multiplication table print 
+// // kare. 
+
+// function multiplicationtable(num){
+//     for(let i = 1; i <= 10; i++){
+//         console.log(`${num} * ${i} = ${num * i}`);
+//     }
+// }
+// multiplicationtable(2);
+
+
+
+
+
+
+
+
+
+// Q18. Range Numbers 
+// Ek program banao jo 2 numbers ke beech ke saare numbers 
+// print kare. 
+
+function rangenumber(num1,num2){
+    for(let i = num1; i <= num2; i++){
+        console.log(i);
     }
 }
-multiplicationtable(2);
-
-
-
+rangenumber(10,20);
