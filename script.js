@@ -191,17 +191,41 @@
 
 
 
-// Q15. Count Even Numbers 
-// Ek program banao jo 1 se n tak even numbers count kare.
+// // Q15. Count Even Numbers 
+// // Ek program banao jo 1 se n tak even numbers count kare.
+
+// function countnum(num){
+//     let count = 0;
+//     for(let i = 1; i <= num; i++){
+//         if(i % 2 === 0){
+//             count = count + 1;
+//         }
+//     }
+//     console.log(count);
+// }
+// countnum(10);
+
+
+
+
+
+
+
+
+
+
+
+// Q16. Count Odd Numbers 
+// Ek program banao jo 1 se n tak odd numbers count kare.
+
 
 function countnum(num){
     let count = 0;
     for(let i = 1; i <= num; i++){
-        if(i % 2 === 0){
+        if(i % 2 === 1){
             count = count + 1;
         }
     }
     console.log(count);
 }
-
 countnum(10);
