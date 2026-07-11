@@ -162,3 +162,26 @@
 //     }
 // }
 // oddnumber();
+
+
+
+
+
+
+
+
+// Q14. Sum of Numbers (1 to N) 
+// Ek function banao jo 1 se n tak sab numbers ka sum nikal kar 
+// print kare. 
+
+
+function sumofnumber(num){
+    let sum = 0;
+    for(let i = 1; i <= num; i++){
+        sum = sum + i;
+    }
+    console.log(sum);
+    
+}
+
+sumofnumber(3);
