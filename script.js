@@ -259,13 +259,39 @@
 
 
 
-// Q18. Range Numbers 
-// Ek program banao jo 2 numbers ke beech ke saare numbers 
-// print kare. 
+// // Q18. Range Numbers 
+// // Ek program banao jo 2 numbers ke beech ke saare numbers 
+// // print kare. 
 
-function rangenumber(num1,num2){
-    for(let i = num1; i <= num2; i++){
-        console.log(i);
-    }
-}
-rangenumber(10,20);
+// function rangenumber(num1,num2){
+//     for(let i = num1; i <= num2; i++){
+//         console.log(i);
+//     }
+// }
+// rangenumber(10,20);
+
+
+
+
+
+
+
+
+
+
+// // Q19. Largest Even Number 
+// // Ek program banao jo 1 se n tak sabse bada even number find 
+// // kare.
+
+// function largestnum(num){
+//     let largesteven = 0 ;
+//     for(let i = 1; i <= num; i++){
+//         if(i % 2 === 0){
+//             if(i >  largesteven){
+//                 largesteven =  i;
+//             }
+//         }
+//     }
+//     console.log(largesteven);
+// }
+// largestnum(10);
