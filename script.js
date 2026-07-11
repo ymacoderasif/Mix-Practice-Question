@@ -56,18 +56,38 @@
 
 
 
-// Q5. Positive Negative Zero 
-// Ek function banao jo number ka type check kare.
+// // Q5. Positive Negative Zero 
+// // Ek function banao jo number ka type check kare.
 
 
-function numbercheck(num){
-    if(num > 0){
-        console.log("positive");
-    }else if(num < 0){
-        console.log("Negative");
+// function numbercheck(num){
+//     if(num > 0){
+//         console.log("positive");
+//     }else if(num < 0){
+//         console.log("Negative");
+//     }else{
+//         console.log("Zero");
+//     }
+
+// }
+// numbercheck(10);
+
+
+
+// Q6. Largest of Two Numbers 
+// Ek function banao jo 2 numbers me se bada number print kare.
+
+
+function Largestnum(a,b){
+    if(a > b){
+        console.log("largest number a =", a);
+    }else if(b > a){
+        console.log("largest number b =", b);
     }else{
-        console.log("Zero");
+        console.log("both number are equal");
+        
     }
 
 }
-numbercheck(10);
+
+Largestnum(10,10);
