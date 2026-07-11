@@ -218,14 +218,32 @@
 // Q16. Count Odd Numbers 
 // Ek program banao jo 1 se n tak odd numbers count kare.
 
+// function countnum(num){
+//     let count = 0;
+//     for(let i = 1; i <= num; i++){
+//         if(i % 2 === 1){
+//             count = count + 1;
+//         }
+//     }
+//     console.log(count);
+// }
+// countnum(10);
 
-function countnum(num){
-    let count = 0;
-    for(let i = 1; i <= num; i++){
-        if(i % 2 === 1){
-            count = count + 1;
-        }
+
+
+
+
+
+// Q17. Multiplication Table 
+// Ek program banao jo kisi number ka multiplication table print 
+// kare. 
+
+function multiplicationtable(num){
+    for(let i = 1; i <= 10; i++){
+        console.log(`${num} * ${i} = ${num * i}`);
     }
-    console.log(count);
 }
-countnum(10);
+multiplicationtable(2);
+
+
+
