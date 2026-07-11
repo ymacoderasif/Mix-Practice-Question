@@ -184,16 +184,32 @@
 
 
 
-// Q11. Reverse Counting 
-// Ek program banao jo 10 se 1 tak numbers print kare.
+// // Q11. Reverse Counting 
+// // Ek program banao jo 10 se 1 tak numbers print kare.
 
-function Reversecounting(num){
-    for(let i = 10; i >= 1; i--){
-        console.log(i);
+// function Reversecounting(num){
+//     for(let i = 10; i >= 1; i--){
+//         console.log(i);
+//     }
+// }
+// Reversecounting();
+
+
+
+
+
+
+
+// Q12. Even Numbers (1 to 20) 
+// Ek program banao jo 1 se 20 tak saare even numbers print 
+// kare. 
+
+
+function evennumber(num){
+    for(let i = 1; i <= 20; i++){
+        if(i % 2 === 0){
+            console.log(i);
+        }
     }
 }
-
-Reversecounting();
-
-
-
+evennumber();
