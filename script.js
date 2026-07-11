@@ -108,3 +108,13 @@
 // }
 
 // largestnum(20,50,200);
+
+
+// Q8. Square Finder 
+// Ek function banao jo number ka square print kare. 
+
+function square(num){
+    console.log(`Square of ${num} = ${num * num }`);
+}
+
+square(50);
