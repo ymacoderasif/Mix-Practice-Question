@@ -1,19 +1,6 @@
 // Q1. Hello Function 
 // Ek function banao jo call hone par “Hello JavaScript” print 
 // kare. 
-// Kaise sochna hai (logic): 
-// Simple function banana hai jo call hone par message print 
-// kare 
-// Kya use karna hai: 
-// Function   
-// Console output   
-// Kya nahi use karna: 
-// loop   
-// if-else   
-// Simple roadmap: 
-// Function banao 
-// Message print karo 
-// Function call karo 
 
 
 // function hello(name){
@@ -21,6 +8,15 @@
 // }
 
 // hello();
+
+
+
+
+
+
+
+// Q2. Greeting Function 
+// Ek function banao jo naam le aur “Hello Naam” print kare.
 
 // function helloname(name){
 //     let great = prompt("Enter a name");
@@ -34,6 +30,10 @@
 
 
 
+
+// Q3. Sum of Two Numbers 
+// Ek function banao jo 2 numbers ka sum print kare.
+
 // function sum(num){
 //     let a = 10;
 //     let b = 20;
@@ -44,6 +44,12 @@
 
 
 
+
+
+
+// Q4. Even or Odd Checker 
+// Ek function banao jo check kare number even hai ya odd.
+
 // function evenodd(num){
 //     if(num % 2 === 0){
 //         console.log("Even");
@@ -53,6 +59,10 @@
 // }
 
 // evenodd(20);
+
+
+
+
 
 
 
@@ -74,6 +84,10 @@
 
 
 
+
+
+
+
 // Q6. Largest of Two Numbers 
 // Ek function banao jo 2 numbers me se bada number print kare.
 
@@ -85,17 +99,20 @@
 //         console.log("largest number b =", b);
 //     }else{
 //         console.log("both number are equal");
-
 //     }
-
 // }
 
 // Largestnum(10,10);
 
 
+
+
+
+
+
+
 // Q7. Largest of Three Numbers 
 // Ek function banao jo 3 numbers me se largest print kare.
-
 
 // function largestnum(a, b, c) {
 //     if (a >= b && a >= c) {
@@ -110,11 +127,37 @@
 // largestnum(20,50,200);
 
 
+
+
+
+
+
+
+
 // Q8. Square Finder 
 // Ek function banao jo number ka square print kare. 
 
-function square(num){
-    console.log(`Square of ${num} = ${num * num }`);
+// function square(num){
+//     console.log(`Square of ${num} = ${num * num }`);
+// }
+
+// square(50);
+
+
+
+
+
+
+
+
+
+
+
+// Q9. Cube Finder 
+// Ek function banao jo number ka cube print kare.
+
+function cubefinder(num){
+    console.log(`Cube of ${num} = ${num * num * num}`);
 }
 
-square(50);
+cubefinder(2);
