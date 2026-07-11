@@ -78,16 +78,33 @@
 // Ek function banao jo 2 numbers me se bada number print kare.
 
 
-function Largestnum(a,b){
-    if(a > b){
-        console.log("largest number a =", a);
-    }else if(b > a){
-        console.log("largest number b =", b);
-    }else{
-        console.log("both number are equal");
-        
-    }
+// function Largestnum(a,b){
+//     if(a > b){
+//         console.log("largest number a =", a);
+//     }else if(b > a){
+//         console.log("largest number b =", b);
+//     }else{
+//         console.log("both number are equal");
 
-}
+//     }
 
-Largestnum(10,10);
+// }
+
+// Largestnum(10,10);
+
+
+// Q7. Largest of Three Numbers 
+// Ek function banao jo 3 numbers me se largest print kare.
+
+
+// function largestnum(a, b, c) {
+//     if (a >= b && a >= c) {
+//         console.log("largest number a :-", a);
+//     } else if (b >= a && b >= c) {
+//         console.log("largest number b :-", b);
+//     } else{
+//         console.log("largest number c", c);
+//     }
+// }
+
+// largestnum(20,50,200);
