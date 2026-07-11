@@ -44,19 +44,30 @@
 
 
 
-function evenodd(num){
-    if(num % 2 === 0){
-        console.log("Even");
+// function evenodd(num){
+//     if(num % 2 === 0){
+//         console.log("Even");
+//     }else{
+//         console.log("Odd");
+//     }
+// }
+
+// evenodd(20);
+
+
+
+// Q5. Positive Negative Zero 
+// Ek function banao jo number ka type check kare.
+
+
+function numbercheck(num){
+    if(num > 0){
+        console.log("positive");
+    }else if(num < 0){
+        console.log("Negative");
     }else{
-        console.log("Odd");
+        console.log("Zero");
     }
+
 }
-
-evenodd(20);
-
-
-
-// my name is asif
-
-
-// tum mese ho yeh batao
+numbercheck(10);
