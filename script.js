@@ -167,18 +167,33 @@
 
 
 
-// Q10. Counting 1 to 10 
-// 1 se 10 tak numbers print karo.
+// // Q10. Counting 1 to 10 
+// // 1 se 10 tak numbers print karo.
+
+// function Countingprint(number){
+//     for(let i = 1; i <= 10; i++){
+//         console.log(i);
+//     }
+// }
+
+// Countingprint();
 
 
 
-function Countingprint(number){
-    for(let i = 1; i <= 10; i++){
+
+
+
+
+// Q11. Reverse Counting 
+// Ek program banao jo 10 se 1 tak numbers print kare.
+
+function Reversecounting(num){
+    for(let i = 10; i >= 1; i--){
         console.log(i);
     }
 }
 
-Countingprint();
+Reversecounting();
 
 
 
