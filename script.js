@@ -150,14 +150,35 @@
 
 
 
+// // Q9. Cube Finder 
+// // Ek function banao jo number ka cube print kare.
+
+// function cubefinder(num){
+//     console.log(`Cube of ${num} = ${num * num * num}`);
+// }
+
+// cubefinder(2);
 
 
 
-// Q9. Cube Finder 
-// Ek function banao jo number ka cube print kare.
 
-function cubefinder(num){
-    console.log(`Cube of ${num} = ${num * num * num}`);
+
+
+
+
+
+// Q10. Counting 1 to 10 
+// 1 se 10 tak numbers print karo.
+
+
+
+function Countingprint(number){
+    for(let i = 1; i <= 10; i++){
+        console.log(i);
+    }
 }
 
-cubefinder(2);
+Countingprint();
+
+
+
