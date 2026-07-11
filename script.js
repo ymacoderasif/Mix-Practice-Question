@@ -170,18 +170,38 @@
 
 
 
-// Q14. Sum of Numbers (1 to N) 
-// Ek function banao jo 1 se n tak sab numbers ka sum nikal kar 
-// print kare. 
+// // Q14. Sum of Numbers (1 to N) 
+// // Ek function banao jo 1 se n tak sab numbers ka sum nikal kar 
+// // print kare. 
+
+// function sumofnumber(num){
+//     let sum = 0;
+//     for(let i = 1; i <= num; i++){
+//         sum = sum + i;
+//     }
+//     console.log(sum);
+// }
+// sumofnumber(3);
 
 
-function sumofnumber(num){
-    let sum = 0;
+
+
+
+
+
+
+
+// Q15. Count Even Numbers 
+// Ek program banao jo 1 se n tak even numbers count kare.
+
+function countnum(num){
+    let count = 0;
     for(let i = 1; i <= num; i++){
-        sum = sum + i;
+        if(i % 2 === 0){
+            count = count + 1;
+        }
     }
-    console.log(sum);
-    
+    console.log(count);
 }
 
-sumofnumber(3);
+countnum(10);
